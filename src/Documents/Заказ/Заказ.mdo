@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdb000b8-3fd5-4a06-97e0-b8f323817cc9">
+  <producedTypes>
+    <objectType typeId="eee59aaf-3fe3-420d-a44a-bef47d4d5389" valueTypeId="d9c76f28-187f-47d2-b8ed-53d06854ca2a"/>
+    <refType typeId="a9964314-f100-4c46-894e-5dbe877c5436" valueTypeId="ac0a248d-5318-4712-b7b8-c159255ca62d"/>
+    <selectionType typeId="ca7cedc1-09ca-40df-b136-95600365d66a" valueTypeId="362b10e1-4fba-4bd0-92d0-92de1281e80e"/>
+    <listType typeId="3fe51d5b-7ee3-43c5-9bc9-f69b4adc0c9b" valueTypeId="b7951959-979b-4cb0-8864-706e17010f4f"/>
+    <managerType typeId="f98e1b29-61a9-44b7-94e9-026c42470aa6" valueTypeId="8eac1bf4-d91f-4e8c-aed7-caa6be420ffa"/>
+  </producedTypes>
+  <name>Заказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Заказ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заказы</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9b5d51ac-aa1b-4a5e-b035-863dbb83e538">
+    <name>ФИО_клиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71608601-693f-40e7-b764-5bc23b608285">
+    <name>ИтоговаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="095010b8-81e8-4a1e-aaa5-8455bc381bf2">
+    <producedTypes>
+      <objectType typeId="6b208406-0935-41d8-93de-ed34c5656a1f" valueTypeId="21ed0bb2-7d44-4d07-8637-8ee2dd141a39"/>
+      <rowType typeId="fe7760d1-74dd-4342-a781-318af3c18f45" valueTypeId="fb20c7d0-5a7f-4360-9cc2-550c61310f5f"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="eba4d9ff-0281-4ae1-9a23-4d6e76256594">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b825fdda-ba03-4138-a976-be71314927db">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d57f7625-df9a-4209-b2f4-cf63abb2c890">
+      <name>ЦенаЕденицы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена еденицы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05b73839-6f8b-4629-a8e5-c9e784714be4">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
