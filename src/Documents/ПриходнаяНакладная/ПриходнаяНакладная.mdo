@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdb000b8-3fd5-4a06-97e0-b8f323817cc9">
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3216c43b-059b-48ca-b8f6-196922093897">
   <producedTypes>
-    <objectType typeId="eee59aaf-3fe3-420d-a44a-bef47d4d5389" valueTypeId="d9c76f28-187f-47d2-b8ed-53d06854ca2a"/>
-    <refType typeId="a9964314-f100-4c46-894e-5dbe877c5436" valueTypeId="ac0a248d-5318-4712-b7b8-c159255ca62d"/>
-    <selectionType typeId="ca7cedc1-09ca-40df-b136-95600365d66a" valueTypeId="362b10e1-4fba-4bd0-92d0-92de1281e80e"/>
-    <listType typeId="3fe51d5b-7ee3-43c5-9bc9-f69b4adc0c9b" valueTypeId="b7951959-979b-4cb0-8864-706e17010f4f"/>
-    <managerType typeId="f98e1b29-61a9-44b7-94e9-026c42470aa6" valueTypeId="8eac1bf4-d91f-4e8c-aed7-caa6be420ffa"/>
+    <objectType typeId="2560c150-7f92-48c9-9c0f-ff2cef45c1c6" valueTypeId="368ec4e1-a1e8-480c-b601-6ce5e0fdd04d"/>
+    <refType typeId="bea3a202-3eb6-4a04-8375-de5cc88e1876" valueTypeId="0bd81fcb-1ead-40e5-9fc8-1ff1b3d881f9"/>
+    <selectionType typeId="7f475399-5cee-4e17-93ee-a3b9f6e429f7" valueTypeId="63fc88f7-779d-4112-aa13-f4ecef38b0fe"/>
+    <listType typeId="bf086f53-6f88-4f96-97b7-1ec561ae9029" valueTypeId="1ba629b9-1ff0-4a4f-b859-df13aa30f631"/>
+    <managerType typeId="955a57c4-f663-45b2-a535-60aee6f611be" valueTypeId="4006615f-2b1b-4740-9989-7d87fbb13938"/>
   </producedTypes>
-  <name>Заказ</name>
+  <name>ПриходнаяНакладная</name>
   <synonym>
     <key>ru</key>
-    <value>Заказ</value>
+    <value>Приходная накладная</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Заказ.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <listPresentation>
-    <key>ru</key>
-    <value>Заказы</value>
-  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ТоварыВНаличии</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="9b5d51ac-aa1b-4a5e-b035-863dbb83e538">
-    <name>ФИО_клиента</name>
+  <attributes uuid="43cf2480-6af3-4b8f-81b6-f4e960ff9ee3">
+    <name>ФИО_Принявшего</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО клиента</value>
+      <value>ФИО принявшего</value>
     </synonym>
     <type>
       <types>String</types>
@@ -44,7 +41,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="71608601-693f-40e7-b764-5bc23b608285">
+  <attributes uuid="b0c76e04-4ee9-46e4-a1b3-5b366f982193">
+    <name>ФИО_курьера</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО курьера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="febc1139-0c96-49cd-a4c1-be744c4097f4">
     <name>ИтоговаяСумма</name>
     <synonym>
       <key>ru</key>
@@ -59,17 +71,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="095010b8-81e8-4a1e-aaa5-8455bc381bf2">
+  <tabularSections uuid="cd388106-ef2f-475d-9ff1-34760b8f1034">
     <producedTypes>
-      <objectType typeId="6b208406-0935-41d8-93de-ed34c5656a1f" valueTypeId="21ed0bb2-7d44-4d07-8637-8ee2dd141a39"/>
-      <rowType typeId="fe7760d1-74dd-4342-a781-318af3c18f45" valueTypeId="fb20c7d0-5a7f-4360-9cc2-550c61310f5f"/>
+      <objectType typeId="f10a328d-946c-4838-89c1-df5224f20396" valueTypeId="d0d4aa30-97d9-4ff4-a49f-2dc1c8c588c6"/>
+      <rowType typeId="22f29607-d2da-472e-8617-8c3be0a43246" valueTypeId="2a599a70-03ef-42b6-a979-1ec2daeea315"/>
     </producedTypes>
-    <name>Товары</name>
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Товары</value>
+      <value>Номенклатура</value>
     </synonym>
-    <attributes uuid="eba4d9ff-0281-4ae1-9a23-4d6e76256594">
+    <attributes uuid="1c1026a5-ea60-42c1-bbf3-8f4f2179eb18">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -81,7 +93,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="b825fdda-ba03-4138-a976-be71314927db">
+    <attributes uuid="7b8974ef-28c7-46fb-bb63-f9d5b1a54681">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -96,7 +108,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d57f7625-df9a-4209-b2f4-cf63abb2c890">
+    <attributes uuid="64c1b356-1a1e-4f71-9583-4c2959967eca">
       <name>ЦенаЕденицы</name>
       <synonym>
         <key>ru</key>
@@ -111,17 +123,17 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="05b73839-6f8b-4629-a8e5-c9e784714be4">
+    <attributes uuid="e589c04e-6c8a-4a40-a209-840fb0f759c2">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

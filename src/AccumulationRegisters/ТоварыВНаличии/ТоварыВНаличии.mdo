@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c85f55f-f005-4e1f-b875-766ce3875d33">
+  <producedTypes>
+    <selectionType typeId="1f151bf0-c895-4b67-a234-eccf1fe228e3" valueTypeId="c1e82dc4-aea3-459f-a48b-a91315662285"/>
+    <listType typeId="27a921e7-09e2-4396-ab30-f10925ac2714" valueTypeId="9f0fb3e0-ef0a-4162-8567-fbcd1f5d0849"/>
+    <managerType typeId="73be8fb1-fba8-4770-b3fd-4be216804268" valueTypeId="4b7c6083-987d-4ab5-90dd-6ec003388316"/>
+    <recordSetType typeId="9cd526c5-8d9d-4f4f-a68e-729d7ef073d5" valueTypeId="8dd5ab3b-1fcf-4a03-ac3f-983ca25fc2dc"/>
+    <recordKeyType typeId="009e7c53-2649-425c-a31a-c084b670e2de" valueTypeId="360b1b71-7cb4-450c-b3cd-64d52935e53f"/>
+    <recordType typeId="5cebe8db-3dd8-4136-b8eb-ccd605c64ddd" valueTypeId="1542af5a-2e67-4cbe-89ad-ae6c22a1ad80"/>
+  </producedTypes>
+  <name>ТоварыВНаличии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары в наличии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccumulationRegister>

@@ -29,5 +29,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Заказ</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
 </mdclass:Configuration>
