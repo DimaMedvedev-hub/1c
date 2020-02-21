@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2a9480-d5d3-47d8-916c-24008d18cca5">
-  <name>МедведевЕДТ</name>
+  <name>Конфигурация</name>
   <synonym>
     <key>ru</key>
-    <value>Медведев ЕДТ</value>
+    <value>Конфигурация</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="84ac8778-1e28-4d77-b806-32bb06fd780c"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="08738ee3-6418-49bb-b5f4-e35350f57f45"/>
