@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c38d8323-2074-4da7-a5bf-0d85fdbe5888">
+  <producedTypes>
+    <objectType typeId="81dfe5ea-39cf-4409-bfa8-8a07e157df17" valueTypeId="aab196c9-d86f-40c0-bbbd-f872f50816b3"/>
+    <refType typeId="5eab58ae-a137-42f4-b241-e4f26e0f84da" valueTypeId="ec63412c-a41f-4c24-ad78-f3359885b349"/>
+    <selectionType typeId="f66bd76f-efce-43cc-8cd6-74871e3f381d" valueTypeId="d6af5244-c0e0-4e30-ad8e-5245698e8791"/>
+    <listType typeId="67626b77-3d85-49cf-afb6-f3edb2d46e2e" valueTypeId="0f106b5f-b7b7-4af2-9e97-73fd462b5249"/>
+    <managerType typeId="0534af6d-98db-413d-9a86-4f2e4512b85c" valueTypeId="ce89fccc-1f46-4c7e-bfca-36b693a28e18"/>
+  </producedTypes>
+  <name>ЗадачаКурьеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача курьеру</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗадачаКурьеру.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗадачаКурьеру.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a0c39fbe-d963-4c1e-84b7-05f5c2f200b1">
+    <name>ФИО_клиента1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea619f1a-fc95-4f3b-97f4-27d9eb7204f7">
+    <name>ИтоговаяСумма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5773308-955b-4cd5-a17f-b2e93355e35a">
+    <name>Телефон1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ada997e3-68d8-4ca0-81dd-46de4433c3cc">
+    <name>АдресДоставки1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес доставки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fa2f985-e913-4d70-b88c-f8201d3ab651">
+    <name>ДатаИВремяДоставки1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время доставки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6149bc8-b091-43a7-8fd8-453c81396979">
+    <name>СдачаДляКурьеров1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдача </value>
+    </synonym>
+    <type>
+      <types>EnumRef.Сдача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8346d9a4-94b3-486c-93fd-28f512854b7f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

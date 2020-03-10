@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7df61e96-cadb-48df-a1aa-9f4cd4309ce2">
+  <producedTypes>
+    <refType typeId="986d33e0-a3f6-4e98-93f5-2f882f9e5bcd" valueTypeId="aa4ab5eb-88c2-49b8-a03c-eeb0224a5a2a"/>
+    <listType typeId="795894fd-9878-4b70-8cbd-f6231ec4f605" valueTypeId="6157ed44-54c2-4efc-a41d-9fbe3bba2a8d"/>
+    <managerType typeId="2125d1d7-da2c-426c-8105-c9f62d700119" valueTypeId="7a9c3879-c58a-4a87-b39e-0d33f9a4a960"/>
+  </producedTypes>
+  <name>СпособПолученияЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ получения заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c523f493-be6e-4562-8c7d-393b093ce39f">
+    <name>Самовывоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самовывоз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a11ee4d7-8546-43be-afa1-fecb584831ad">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

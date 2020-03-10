@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9e0aad2-93cb-4fb6-aba6-ad4fefe575f5">
+  <name>ТиповыеРассчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типовые рассчеты</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

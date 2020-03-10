@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad54958f-023c-4372-9c82-689f33fec227">
+  <producedTypes>
+    <refType typeId="8f60ace8-d743-454f-afd9-3cbe1191238c" valueTypeId="a2005d0d-745f-4049-a8a0-7f5f1d557f60"/>
+    <listType typeId="f104ba67-f869-4411-a943-648db8506dca" valueTypeId="807b1ece-2563-4b5b-82c4-0620aebad4ac"/>
+    <managerType typeId="b6ff3da5-6c46-48b1-900a-d1cb84050107" valueTypeId="74765662-2575-4a49-91b0-dc0714b5ac71"/>
+  </producedTypes>
+  <name>СпособОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee1bad23-b260-4020-9516-0f81e4ab39a2">
+    <name>ВКассу</name>
+    <synonym>
+      <key>ru</key>
+      <value>В кассу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b1b8512-adfe-45d6-94c7-d5a20992d188">
+    <name>ПредоплатаКартой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата картой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73f21a27-a6e6-4476-8ac5-da5723325b4d">
+    <name>КурьеруНаличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьеру наличными</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5f87c6d-ca3f-477d-98da-9bc1ff2d4bb2">
+    <name>КурьеруКартой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьеру картой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

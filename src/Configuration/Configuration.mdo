@@ -29,8 +29,17 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ТиповыеРассчеты</commonModules>
+  <commonModules>CommonModule.ПроверкаОстатков</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ЗадачаКурьеру</documents>
+  <documents>Document.ТоварнаяНакладнаяКлиенту</documents>
+  <enums>Enum.СпособПолученияЗаказа</enums>
+  <enums>Enum.СпособОплаты</enums>
+  <enums>Enum.Сдача</enums>
   <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Резервы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

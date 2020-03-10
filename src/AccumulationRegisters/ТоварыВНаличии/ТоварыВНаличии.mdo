@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c85f55f-f005-4e1f-b875-766ce3875d33">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c85f55f-f005-4e1f-b875-766ce3875d33">
   <producedTypes>
     <selectionType typeId="1f151bf0-c895-4b67-a234-eccf1fe228e3" valueTypeId="c1e82dc4-aea3-459f-a48b-a91315662285"/>
     <listType typeId="27a921e7-09e2-4396-ab30-f10925ac2714" valueTypeId="9f0fb3e0-ef0a-4162-8567-fbcd1f5d0849"/>
@@ -28,6 +28,8 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="394d5e76-2952-475f-9634-fe2aa2552fa5">
@@ -42,21 +44,8 @@
         <length>50</length>
       </stringQualifiers>
     </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="451126a3-2759-4cbf-a878-e84066b06ab2">
-    <name>Склад</name>
-    <synonym>
-      <key>ru</key>
-      <value>Склад</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

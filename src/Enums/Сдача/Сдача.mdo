@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f2ec0a4-64a4-4c3a-9e9a-8c01479fef31">
+  <producedTypes>
+    <refType typeId="5232ef47-bd42-4ff7-a04f-dafc0dda9c8a" valueTypeId="78f9f311-3ee2-43c2-ac68-f92883d8fa2c"/>
+    <listType typeId="07847c59-4a86-4d62-9aaa-616632cdbbf5" valueTypeId="58cc73be-8166-49a4-a1bd-dce25b8dbf93"/>
+    <managerType typeId="0b8f6f6f-c5ae-4887-8f63-37d98efb7d1e" valueTypeId="b4405733-f347-41df-aaba-5a5cc4e05c57"/>
+  </producedTypes>
+  <name>Сдача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сдача</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca91f4dc-a094-45d9-b1b6-6b6dd20956ba">
+    <name>Нужна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нужна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f139f9b1-bbf4-4b83-a1f4-675e83d4ced7">
+    <name>НеНужна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не нужна</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
