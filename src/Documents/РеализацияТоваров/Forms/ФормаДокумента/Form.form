@@ -724,7 +724,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ТоварнаяНакладнаяКлиенту</types>
+      <types>DocumentObject.РеализацияТоваров</types>
     </valueType>
     <view>
       <common>true</common>

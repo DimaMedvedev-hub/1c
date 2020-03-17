@@ -29,16 +29,66 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Логистика</subsystems>
+  <subsystems>Subsystem.ОбработкаЗаказа</subsystems>
+  <subsystems>Subsystem.СкладИУчет</subsystems>
+  <subsystems>Subsystem.Организация</subsystems>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.логистика</commonPictures>
+  <commonPictures>CommonPicture.Склад</commonPictures>
+  <commonPictures>CommonPicture.ОбработкаЗаказа</commonPictures>
+  <commonPictures>CommonPicture.Организация</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПодсистемаПродажиПросмотр</roles>
+  <roles>Role.ПодсистемаЛогистикаПросмотр</roles>
+  <roles>Role.ПодсистемаОбработкаЗаказаПросмотр</roles>
+  <roles>Role.ПодсистемаСкладИУчетПросмотр</roles>
+  <roles>Role.ПодсистемаОрганизацияПросмотр</roles>
+  <roles>Role.СправочникНоменклатураПросмотр</roles>
+  <roles>Role.СправочникНоменклатураВсеДействия</roles>
+  <roles>Role.СправочникКлиентыПросмотр</roles>
+  <roles>Role.СправочникКлиентыВсеДействия</roles>
+  <roles>Role.СправочникСотрудникиПросмотр</roles>
+  <roles>Role.СотрудникиСправочникВсеДействия</roles>
+  <roles>Role.ДокументЗаказПросмотр</roles>
+  <roles>Role.ДокументЗаказВсеКромеУдаления</roles>
+  <roles>Role.ДокументЗаказУдаление</roles>
+  <roles>Role.ДокументПриходНаклПросмотр</roles>
+  <roles>Role.ДокументПриходНаклВсеКромеУдаления</roles>
+  <roles>Role.ДокументПриходНаклУдаление</roles>
+  <roles>Role.ДокументТоварНаклПросмотр</roles>
+  <roles>Role.ДокументТоварНаклВсеКромеУдаления</roles>
+  <roles>Role.ДокументТоварНаклУдаление</roles>
+  <roles>Role.ДокументЗадачаКурьеруПросмотр</roles>
+  <roles>Role.ДокументЗадачаКурьеруВсеКромеУдаления</roles>
+  <roles>Role.ДокументЗадачаКурьеруУдаление</roles>
+  <roles>Role.ДокументРеализацияТоваровПросмотр</roles>
+  <roles>Role.ДокументРеализацияТоваровВсеКромеУдаления</roles>
+  <roles>Role.ДокументРеализацияТоваровУдаление</roles>
+  <roles>Role.РегистрНакопленияТоварыВНаличииПросмотр</roles>
+  <roles>Role.РегистрНакопленияТоварыВНаличииВсеДействия</roles>
+  <roles>Role.РегистрНакопленияРезервыПросмотр</roles>
+  <roles>Role.РегистрНакопленияРезервыВсеДействия</roles>
+  <roles>Role.РегистрНакопленияПродажиПросмотр</roles>
+  <roles>Role.РегистрНакопленияПродажиВсеДействия</roles>
   <commonModules>CommonModule.ТиповыеРассчеты</commonModules>
   <commonModules>CommonModule.ПроверкаОстатков</commonModules>
+  <commonModules>CommonModule.СистемныеСообщения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Файлы</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ЗадачаКурьеру</documents>
-  <documents>Document.ТоварнаяНакладнаяКлиенту</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.ИзменениеЦенТоваров</documents>
   <enums>Enum.СпособПолученияЗаказа</enums>
   <enums>Enum.СпособОплаты</enums>
   <enums>Enum.Сдача</enums>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

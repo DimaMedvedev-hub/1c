@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b01144c6-cfc3-46c7-b04d-9b3c88414f3c">
+  <name>ДокументТоварНаклВсеКромеУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ товар накл все кроме удаления</value>
+  </synonym>
+</mdclass:Role>

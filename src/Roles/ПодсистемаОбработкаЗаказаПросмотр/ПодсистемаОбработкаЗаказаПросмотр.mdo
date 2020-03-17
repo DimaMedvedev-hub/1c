@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb7fa9d-f84e-47c0-b192-670c2d659a73">
+  <name>ПодсистемаОбработкаЗаказаПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема обработка заказа просмотр</value>
+  </synonym>
+</mdclass:Role>

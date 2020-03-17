@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04a5b06a-9153-482c-8223-1673b310b02e">
+  <name>ПодсистемаЛогистикаПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема логистика просмотр</value>
+  </synonym>
+</mdclass:Role>

@@ -7,13 +7,13 @@
     <listType typeId="cd79ab6a-e721-48a9-9088-5ad8c8e5b811" valueTypeId="30bfefa7-cf1e-4a08-9f60-ceb3b8372a21"/>
     <managerType typeId="6a0f8411-1a44-4f2c-ac71-34bb218c18e2" valueTypeId="2525683f-6fd8-4dff-bc9c-2801a383923b"/>
   </producedTypes>
-  <name>ТоварнаяНакладнаяКлиенту</name>
+  <name>РеализацияТоваров</name>
   <synonym>
     <key>ru</key>
-    <value>Товарная накладная клиенту</value>
+    <value>Реализация товаров</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ТоварнаяНакладнаяКлиенту.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РеализацияТоваров.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <basedOn>Document.Заказ</basedOn>
   <createOnInput>Use</createOnInput>
@@ -24,7 +24,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ТоварнаяНакладнаяКлиенту.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.РеализацияТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.Резервы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -36,16 +36,11 @@
       <value>Выдал</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

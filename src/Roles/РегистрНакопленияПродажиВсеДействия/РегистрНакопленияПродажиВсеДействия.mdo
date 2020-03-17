@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46aea27e-f1e5-4f0f-9ce7-33d49c5d83cf">
+  <name>РегистрНакопленияПродажиВсеДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления продажи все действия</value>
+  </synonym>
+</mdclass:Role>

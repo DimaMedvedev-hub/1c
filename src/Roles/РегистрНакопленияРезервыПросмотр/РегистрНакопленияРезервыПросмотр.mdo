@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd795fde-09d2-4b94-9f4e-60f7647d85ad">
+  <name>РегистрНакопленияРезервыПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления резервы просмотр</value>
+  </synonym>
+</mdclass:Role>

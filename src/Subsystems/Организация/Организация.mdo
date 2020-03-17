@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0193bb2-606d-40f7-af70-0523353f39bc">
+  <name>Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Организация</picture>
+  </picture>
+  <content>Catalog.Сотрудники</content>
+  <content>Document.УстановкаЦен</content>
+  <content>Document.ИзменениеЦенТоваров</content>
+  <content>Catalog.Файлы</content>
+</mdclass:Subsystem>
