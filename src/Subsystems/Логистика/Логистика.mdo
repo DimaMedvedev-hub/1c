@@ -11,4 +11,5 @@
     <picture>CommonPicture.логистика</picture>
   </picture>
   <content>Document.ЗадачаКурьеру</content>
+  <content>Document.МаршрутныйЛист</content>
 </mdclass:Subsystem>

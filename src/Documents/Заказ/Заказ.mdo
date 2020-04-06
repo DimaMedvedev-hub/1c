@@ -36,7 +36,7 @@
     <name>ФИО_клиента</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО клиента</value>
+      <value>Клиент</value>
     </synonym>
     <type>
       <types>CatalogRef.Клиенты</types>
@@ -76,7 +76,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>13</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -146,17 +146,13 @@
       <value>Дата и время доставки</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -248,10 +244,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="d57f7625-df9a-4209-b2f4-cf63abb2c890">
-      <name>ЦенаЕденицы</name>
+      <name>ЦенаЕдиницы</name>
       <synonym>
         <key>ru</key>
-        <value>Цена еденицы</value>
+        <value>Цена единицы</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -299,4 +295,17 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="955704a0-de06-4a12-b5f1-5bd3f52107b8">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="a272356b-504c-461d-af9a-d337c9f0ca05">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Заказ</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Document>

@@ -25,6 +25,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РеализацияТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РеализацияТоваров.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.Резервы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -69,6 +70,24 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2aabbd15-9aba-4687-a8a6-a52150f54119">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0211e949-e3da-4fc3-a381-bf64721ef569">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -123,10 +142,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="4227ebe7-3c4a-4901-9888-256b8dc07389">
-      <name>ЦенаЕденицы</name>
+      <name>ЦенаЕдиницы</name>
       <synonym>
         <key>ru</key>
-        <value>Цена еденицы</value>
+        <value>Цена единицы</value>
       </synonym>
       <type>
         <types>Number</types>

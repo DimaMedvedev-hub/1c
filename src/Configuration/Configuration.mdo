@@ -18,9 +18,8 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.14</compatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="f42bd19b-1341-4a87-93fb-fd0543342dfe">
     <name>Русский</name>
     <synonym>
@@ -72,19 +71,22 @@
   <roles>Role.РегистрНакопленияРезервыВсеДействия</roles>
   <roles>Role.РегистрНакопленияПродажиПросмотр</roles>
   <roles>Role.РегистрНакопленияПродажиВсеДействия</roles>
+  <roles>Role.ДокументУстановкаЦенВсеКромеУдаления</roles>
+  <roles>Role.ДокументУстановкаЦенУдаление</roles>
+  <filterCriteria>FilterCriterion.ЗадачаКурьеруСвежая</filterCriteria>
   <commonModules>CommonModule.ТиповыеРассчеты</commonModules>
   <commonModules>CommonModule.ПроверкаОстатков</commonModules>
   <commonModules>CommonModule.СистемныеСообщения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ЗадачаКурьеру</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.УстановкаЦен</documents>
-  <documents>Document.ИзменениеЦенТоваров</documents>
+  <documents>Document.МаршрутныйЛист</documents>
   <enums>Enum.СпособПолученияЗаказа</enums>
   <enums>Enum.СпособОплаты</enums>
   <enums>Enum.Сдача</enums>

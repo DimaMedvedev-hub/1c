@@ -119,10 +119,10 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>17</length>
       </stringQualifiers>
     </type>
-    <mask>+7(999) 999 99 99</mask>
+    <mask>9 (999) 999 99 99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

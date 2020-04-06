@@ -39,29 +39,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="87831c90-e1b5-4a24-a682-0d908c649f0c">
-    <name>РазничнаяЦена</name>
+    <name>РозничнаяЦена</name>
     <synonym>
       <key>ru</key>
-      <value>Разничная цена</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="f75825cf-e235-44b9-819d-1cd83dab9d8d">
-    <name>АкционнаяЦена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Акционная цена</value>
+      <value>Розничная цена</value>
     </synonym>
     <type>
       <types>Number</types>

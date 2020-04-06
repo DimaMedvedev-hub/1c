@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="754a4f58-f50f-4f60-a21a-a05b99845b7b">
+  <producedTypes>
+    <listType typeId="5399a865-f58f-4157-8ed3-95867f378f0a" valueTypeId="7014344f-280f-4226-bd58-0567286037ad"/>
+    <managerType typeId="6b13b682-ef89-4a40-8293-d2192558994d" valueTypeId="12784989-392c-42a7-8b83-0a31a8c4f198"/>
+  </producedTypes>
+  <name>ЗадачаКурьеруСвежая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача курьеру свежая</value>
+  </synonym>
+  <type/>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ЗадачаКурьеру.Attribute.Доставлено</content>
+  <content>Document.ЗадачаКурьеру.Attribute.ВОбработке</content>
+</mdclass:FilterCriterion>

@@ -14,4 +14,5 @@
   <content>AccumulationRegister.Резервы</content>
   <content>AccumulationRegister.ТоварыВНаличии</content>
   <content>Catalog.Номенклатура</content>
+  <content>Catalog.Поставщики</content>
 </mdclass:Subsystem>

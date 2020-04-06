@@ -382,7 +382,7 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Объект.Товары.ЦенаЕденицы</segments>
+          <segments>Объект.Товары.ЦенаЕдиницы</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -537,7 +537,6 @@
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <visible>true</visible>

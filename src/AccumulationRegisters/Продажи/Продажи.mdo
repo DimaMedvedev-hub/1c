@@ -17,10 +17,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="29fec969-93e0-40fc-aa03-f358f0339350">
-    <name>ЦенаРозничная</name>
+    <name>СптоимостьПродажи</name>
     <synonym>
       <key>ru</key>
-      <value>Цена розничная</value>
+      <value>Сптоимость продажи</value>
     </synonym>
     <type>
       <types>Number</types>

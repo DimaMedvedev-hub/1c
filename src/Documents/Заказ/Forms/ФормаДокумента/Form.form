@@ -464,6 +464,7 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:LabelFieldExtInfo">
+      <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
     </extInfo>
@@ -750,7 +751,7 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Объект.Товары.ЦенаЕденицы</segments>
+          <segments>Объект.Товары.ЦенаЕдиницы</segments>
         </paths>
       </dataPath>
       <handlers>
@@ -1067,10 +1068,6 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <handlers>
-      <event>BeforeWrite</event>
-      <name>СозданиеФормыЗадачаКурьеру</name>
-    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

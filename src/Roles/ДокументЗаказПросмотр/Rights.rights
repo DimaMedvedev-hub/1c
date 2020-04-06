@@ -111,7 +111,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Заказ.TabularSection.Товары.Attribute.ЦенаЕденицы</name>
+		<name>Document.Заказ.TabularSection.Товары.Attribute.ЦенаЕдиницы</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
